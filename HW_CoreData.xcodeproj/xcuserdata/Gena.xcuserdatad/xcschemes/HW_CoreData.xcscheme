@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8002C381AC8B173001B2503"
+               BlueprintIdentifier = "B299F2211ACB27E8002C6E02"
                BuildableName = "HW_CoreData.app"
                BlueprintName = "HW_CoreData"
                ReferencedContainer = "container:HW_CoreData.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8002C541AC8B173001B2503"
+               BlueprintIdentifier = "B299F23B1ACB27E9002C6E02"
                BuildableName = "HW_CoreDataTests.xctest"
                BlueprintName = "HW_CoreDataTests"
                ReferencedContainer = "container:HW_CoreData.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8002C541AC8B173001B2503"
+               BlueprintIdentifier = "B299F23B1ACB27E9002C6E02"
                BuildableName = "HW_CoreDataTests.xctest"
                BlueprintName = "HW_CoreDataTests"
                ReferencedContainer = "container:HW_CoreData.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A8002C381AC8B173001B2503"
+            BlueprintIdentifier = "B299F2211ACB27E8002C6E02"
             BuildableName = "HW_CoreData.app"
             BlueprintName = "HW_CoreData"
             ReferencedContainer = "container:HW_CoreData.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A8002C381AC8B173001B2503"
+            BlueprintIdentifier = "B299F2211ACB27E8002C6E02"
             BuildableName = "HW_CoreData.app"
             BlueprintName = "HW_CoreData"
             ReferencedContainer = "container:HW_CoreData.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A8002C381AC8B173001B2503"
+            BlueprintIdentifier = "B299F2211ACB27E8002C6E02"
             BuildableName = "HW_CoreData.app"
             BlueprintName = "HW_CoreData"
             ReferencedContainer = "container:HW_CoreData.xcodeproj">

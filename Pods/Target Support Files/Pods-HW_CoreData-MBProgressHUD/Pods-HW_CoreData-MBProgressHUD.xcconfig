@@ -1,0 +1,1 @@
+PODS_HW_COREDATA_MBPROGRESSHUD_OTHER_LDFLAGS = -framework "CoreGraphics"
