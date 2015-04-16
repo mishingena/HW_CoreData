@@ -36,8 +36,8 @@ class MasterViewController: UITableViewController, UIAlertViewDelegate {
         let alertController = UIAlertController(title: "Добавить сайт", message: "", preferredStyle: .Alert)
         
         let addAction = UIAlertAction(title: "Добавить", style: .Default) { (_) -> Void in
-            let titleTextField = alertController.textFields![0] as UITextField
-            let urlTextField = alertController.textFields![1] as UITextField
+            let titleTextField = alertController.textFields![0] as! UITextField
+            let urlTextField = alertController.textFields![1] as! UITextField
             self.addPage(titleTextField.text, url: urlTextField.text)
         }
         addAction.enabled = false
@@ -93,7 +93,7 @@ class MasterViewController: UITableViewController, UIAlertViewDelegate {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as PageCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! PageCell
         if let page = self.pages?[indexPath.row] {
             cell.title!.text = page.title
             cell.thumbImageView?.image = page.image
@@ -122,7 +122,7 @@ class MasterViewController: UITableViewController, UIAlertViewDelegate {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let indexPath = self.tableView.indexPathForSelectedRow() {
             if segue.identifier == "showDetail" {
-                var detail = segue.destinationViewController as DetailViewController
+                var detail = segue.destinationViewController as! DetailViewController
                 if let page = self.pages?[indexPath.row] {
                     detail.data = page.data
                     let stringURL = page.stringURL

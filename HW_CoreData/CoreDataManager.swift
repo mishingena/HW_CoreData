@@ -28,7 +28,7 @@ class CoreDataManager: NSObject {
         model = NSManagedObjectModel(contentsOfURL: modelURL)!
         
         let fileManager = NSFileManager.defaultManager()
-        let docsURL = fileManager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).last as NSURL
+        let docsURL = fileManager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).last as! NSURL
         let storeURL = docsURL.URLByAppendingPathComponent("HW_CoreData.sqlite")
         
         coordinator = NSPersistentStoreCoordinator(managedObjectModel: model)
@@ -78,7 +78,7 @@ class CoreDataManager: NSObject {
                 abort()
             }
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                completion(pages: results as [Page])
+                completion(pages: results as! [Page])
             })
         })
     }
